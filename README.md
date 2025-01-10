@@ -1,2 +1,2 @@
 # klib
-Public library for common use. Learning from LiHeng's code.
+Public library for common use. Learning from many barons' codes, such as LiHeng.
