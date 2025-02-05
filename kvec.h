@@ -50,7 +50,10 @@ int main() {
 
 #include <stdlib.h>
 
-// How this works?
+/**
+ *  Round up x to the next highest power of 2
+ *  If x is already a power of 2, it will be returned unchanged
+ */
 #ifndef kv_roundup32
 #define kv_roundup32(x) (--(x), (x)|=(x)>>1, (x)|=(x)>>2, (x)|=(x)>>4, (x)|=(x)>>8, (x)|=(x)>>16, ++(x))
 #endif
